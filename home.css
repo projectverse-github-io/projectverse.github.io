@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0px 10px;
+}
+
+section {
+    display: flex;
+    height: 100%;
+}
+
+#sec-1 {
+    background-color: rgb(241, 241, 241);
+    width: 25%;
+    border-radius: 10px;
+}
+
+#sec-2 {
+    width: 75%;
+}
+
+.card {
+    margin: 20px;
+}
+
+.card-title-top {
+    margin: 5px 0px -10px 10px;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+#stu-prof {
+    border-radius: 100%;
+}
+
+.stu-list {
+    height: 100px;
+    background-color: rgba(141, 141, 141, 0.815);
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.stu-card {
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+.card-cover {
+    background-color: brown;
+}
