@@ -43,7 +43,7 @@
           <button class="mx-2 btn btn-outline-success" type="submit">Search</button>
         </form>
         <div class="d-flex mx-3 my-3 my-md-0">
-          <div class="dropdown">
+          <div class="dropdown" style="z-index: 5;">
             <button class="dropbtn">Sign In</button>
             <div class="dropdown-content">
               <a href="student sign in.html">Student Side</a>
@@ -52,24 +52,29 @@
             </div>
           </div>
 
-            <a href="login.html"><button class="dropdown dropbtn">Log In</button></a>
+          <a href="login.html"><button class="dropdown dropbtn">Log In</button></a>
         </div>
       </div>
     </div>
   </nav>
 
-<!-- slidebar of new notification -->
+  <!-- slidebar of new notification -->
   <div id="carouselExampleIndicators" class="carousel slide">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="card stu-card">
           <h6 class="card-title"><img id="stu-prof" src="img/student1.jpg" height="20px"> Maharshi Patel</h6>
-          <p class="not-card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae mollitia rem culpa pariatur, itaque cum error? Repellat itaque sit quisquam enim unde nihil nam, veritatis provident similique ipsa assumenda consectetur. it helps many other technologies. With supporting text below as a natura...</p>
+          <p class="not-card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae mollitia rem culpa
+            pariatur, itaque cum error? Repellat itaque sit quisquam enim unde nihil nam, veritatis provident similique
+            ipsa assumenda consectetur. it helps many other technologies. With supporting text below as a natura...</p>
         </div>
       </div>
       <div class="carousel-item">
@@ -81,15 +86,20 @@
       <div class="carousel-item">
         <div class="card stu-card">
           <h6 class="card-title"><img id="stu-prof" src="img/student3.jpg" height="20px"> Shivam oza</h6>
-          <p class="not-card-text">With supporting text below as a natural lead-in to additional content... Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quis similique sequi vel praesentium impedit aut aspernatur, non, laudantium laboriosam dolore vitae earum accusantium, consectetur harum reprehenderit nam quos sint.</p>
+          <p class="not-card-text">With supporting text below as a natural lead-in to additional content... Lorem, ipsum
+            dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quis similique sequi vel
+            praesentium impedit aut aspernatur, non, laudantium laboriosam dolore vitae earum accusantium, consectetur
+            harum reprehenderit nam quos sint.</p>
         </div>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
@@ -97,9 +107,9 @@
 
 
   <!-- top rank section -->
-  <section class="container-fluid">
-    <div id="sec-1">
-      <h5 class="card-title-top">Top Rank Colleges</h5>
+  <section class="container-fluid my-3">
+    <div class="d-none d-md-block" id="sec-1">
+      <h5 class="card-title-top mt-4">Top Rank Colleges</h5>
       <div class="mb-3 mb-sm-0">
         <div class="card">
           <div class="card-body">
@@ -115,7 +125,7 @@
           </div>
         </div>
       </div>
-      <h5 class="card-title-top">Top Rank Students</h5>
+      <h5 class="card-title-top mt-4">Top Rank Students</h5>
       <div class="mb-3 mb-sm-0">
         <div class="card">
           <div class="card-body">
@@ -139,16 +149,16 @@
       </div>
     </div>
 
-
     <!-- different projects part -->
     <div id="sec-2">
-      <div class="container-fluid px-4 py-2" id="custom-cards">
-        <h2 class="pb-2 border-bottom">Projects</h2>
+      <div class="container-fluid px-0 py-2" id="custom-cards">
+        <h2 class="pb-2 border-bottom mx-5">Projects</h2>
 
-        <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-0">
+        <div class="row row-cols-lg-1 align-items-stretch g-0">
           <div class="col py-3">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg"
+              style="background-color: rgba(0, 66, 66, 0.925);">
+              <div class="d-flex flex-column h-100 p-3 p-md-5 text-white text-shadow-1">
                 <h3 class="mb-3 lh-1 fw-bold">Problem Detector</h3>
                 <p class="card-text">I biuld the project based on the bussiness management of our bussiness indruties.
                   is helps...<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi totam cupiditate eos
@@ -167,9 +177,6 @@
                     <small>kavy_pro_124</small>
                   </li>
                   <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#calendar3"></use>
-                    </svg>
                     <small>3 Days ago</small>
                   </li>
                 </ul>
@@ -178,13 +185,12 @@
           </div>
 
           <div class="col py-3">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="mb-3 lh-1 fw-bold">System Tracker</h3>
+            <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg"
+              style="background-color: rgba(68, 52, 0, 0.911);">
+              <div class="d-flex flex-column h-100 p-3 p-md-5 text-white text-shadow-1">
+                <h3 class="mb-3 lh-1 fw-bold">Hotel Managament</h3>
                 <p class="card-text">I biuld the project based on the bussiness management of our bussiness indruties.
-                  is helps...<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi totam cupiditate eos
-                  modi! Laboriosam amet quas facilis ad id nesciunt, reiciendis dolor commodi incidunt porro non
-                  inventore delectus doloribus maxime.
+                  is helps...<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi totam cupiditate eos modi! Laboriosam amet quas facilis ad id nesciunt, reiciendis dolor commodi incidunt porro non inventore delectus doloribus maxime.Laboriosam amet quas facilis ad id nesciunt, reiciendis dolor commodi incidunt porro non.
                 </p>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
@@ -195,13 +201,10 @@
                     <svg class="bi me-2" width="1em" height="1em">
                       <use xlink:href="#geo-fill"></use>
                     </svg>
-                    <small>akanksha_1212</small>
+                    <small>rajesh_oza</small>
                   </li>
                   <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#calendar3"></use>
-                    </svg>
-                    <small>3 Days ago</small>
+                    <small>6 month ago</small>
                   </li>
                 </ul>
               </div>
@@ -209,44 +212,12 @@
           </div>
 
           <div class="col py-3">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="mb-3 lh-1 fw-bold">Hotel management</h3>
+            <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg"
+              style="background-color: rgba(70, 0, 53, 0.904);">
+              <div class="d-flex flex-column h-100 p-3 p-md-5 text-white text-shadow-1">
+                <h3 class="mb-3 lh-1 fw-bold">View for review</h3>
                 <p class="card-text">I biuld the project based on the bussiness management of our bussiness indruties.
-                  is helps...<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi totam cupiditate eos
-                  modi! Laboriosam amet quas facilis ad id nesciunt, reiciendis dolor commodi incidunt porro non
-                  inventore delectus doloribus maxime.
-                </p>
-                <ul class="d-flex list-unstyled mt-auto">
-                  <li class="me-auto">
-                    <img src="img/student2.jpg" alt="Bootstrap" width="32" height="32"
-                      class="rounded-circle border border-white">
-                  </li>
-                  <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#geo-fill"></use>
-                    </svg>
-                    <small>kavy_pro_124</small>
-                  </li>
-                  <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#calendar3"></use>
-                    </svg>
-                    <small>3 Days ago</small>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="col py-3">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="mb-3 lh-1 fw-bold">Bussiness management</h3>
-                <p class="card-text">I biuld the project based on the bussiness management of our bussiness indruties.
-                  is helps...<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi totam cupiditate eos
-                  modi! Laboriosam amet quas facilis ad id nesciunt, reiciendis dolor commodi incidunt porro non
-                  inventore delectus doloribus maxime.
+                  is helps...<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi totam cupiditate eos modi! Laboriosam amet quas facilis ad id nesciunt, reiciendis dolor commodi incidunt porro non.
                 </p>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
@@ -257,13 +228,10 @@
                     <svg class="bi me-2" width="1em" height="1em">
                       <use xlink:href="#geo-fill"></use>
                     </svg>
-                    <small>kavy_pro_124</small>
+                    <small>p_suhash_22</small>
                   </li>
                   <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#calendar3"></use>
-                    </svg>
-                    <small>3 Days ago</small>
+                    <small>7 Days ago</small>
                   </li>
                 </ul>
               </div>
@@ -271,9 +239,10 @@
           </div>
 
           <div class="col py-3">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="mb-3 lh-1 fw-bold">Bussiness management</h3>
+            <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg"
+              style="background-color: rgba(7, 58, 0, 0.904);">
+              <div class="d-flex flex-column h-100 p-3 p-md-5 text-white text-shadow-1">
+                <h3 class="mb-3 lh-1 fw-bold">Image generator</h3>
                 <p class="card-text">I biuld the project based on the bussiness management of our bussiness indruties.
                   is helps...<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi totam cupiditate eos
                   modi! Laboriosam amet quas facilis ad id nesciunt, reiciendis dolor commodi incidunt porro non
@@ -288,13 +257,10 @@
                     <svg class="bi me-2" width="1em" height="1em">
                       <use xlink:href="#geo-fill"></use>
                     </svg>
-                    <small>kavy_pro_124</small>
+                    <small>kavesh_124</small>
                   </li>
                   <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#calendar3"></use>
-                    </svg>
-                    <small>3 Days ago</small>
+                    <small>3 weeks ago</small>
                   </li>
                 </ul>
               </div>
@@ -302,43 +268,44 @@
           </div>
 
           <div class="col py-3">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="mb-3 lh-1 fw-bold">Product management</h3>
+            <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg"
+              style="background-color: rgba(71, 0, 0, 0.87);">
+              <div class="d-flex flex-column h-100 p-3 p-md-5 text-white text-shadow-1">
+                <h3 class="mb-3 lh-1 fw-bold">Problem Detector</h3>
                 <p class="card-text">I biuld the project based on the bussiness management of our bussiness indruties.
-                  is helps...<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi totam cupiditate eos
-                  modi! Laboriosam amet quas facilis ad id nesciunt, reiciendis dolor commodi incidunt porro non
+                  is helps...<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi totam cupiditate eos modi! Laboriosam amet quas facilis ad id nesciunt, reiciendis dolor commodi incidunt porro non Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, laudantium ipsum. Culpa provident laboriosam perspiciatis reprehenderit placeat assumenda nam maiores aliquid expedita saepe. Laudantium unde quas natus at, perspiciatis nam!
                   inventore delectus doloribus maxime.
                 </p>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
-                    <img src="img/student3.jpg" alt="Bootstrap" width="32" height="32"
+                    <img src="img/student1.jpg" alt="Bootstrap" width="32" height="32"
                       class="rounded-circle border border-white">
                   </li>
                   <li class="d-flex align-items-center me-3">
                     <svg class="bi me-2" width="1em" height="1em">
                       <use xlink:href="#geo-fill"></use>
                     </svg>
-                    <small>kavy_pro_124</small>
+                    <small>sam_bro_211</small>
                   </li>
                   <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#calendar3"></use>
-                    </svg>
-                    <small>3 Days ago</small>
+                    <small>1 hour ago</small>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
+
         </div>
+      </div>
+    </div>
   </section>
 
   <!-- footer of website -->
   <footer class="mt-5 mx-3 d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
     <p class="col-md-4 mb-0 text-body-secondary">© 2023 Projectverse, Inc</p>
 
-    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+    <a href="/"
+      class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
       <img src="img/logo (2).png" height="40px">
     </a>
 
