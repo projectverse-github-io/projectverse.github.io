@@ -30,19 +30,20 @@ section {
     margin: 5px 0px -10px 10px;
 }
 
-.card-text {
+.not-card-text {
     font-size: 14px;
+    height: 45px;
+    overflow-y: scroll;
 }
 
 #stu-prof {
     border-radius: 100%;
 }
 
-.stu-list {
-    height: 100px;
-    background-color: rgba(141, 141, 141, 0.815);
-    margin: 5px;
-    border-radius: 5px;
+#carouselExampleIndicators {
+    padding: 1% 5%;
+    background-color: rgba(184, 184, 184, 0.815);
+    margin: 3px;
 }
 
 .stu-card {

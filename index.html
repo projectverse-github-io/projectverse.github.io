@@ -12,6 +12,7 @@
 
 <body>
 
+  <!-- navigation bar -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="img/logo (3).png" height="30px" width="120px"> </a>
@@ -41,7 +42,7 @@
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="mx-2 btn btn-outline-success" type="submit">Search</button>
         </form>
-        <div class="d-flex mx-3">
+        <div class="d-flex mx-3 my-3 my-md-0">
           <div class="dropdown">
             <button class="dropbtn">Sign In</button>
             <div class="dropdown-content">
@@ -57,36 +58,45 @@
     </div>
   </nav>
 
-  <div class="stu-list container-fluid">
-    <div class="row">
-      <div class="col-sm-3 mb-3 mb-sm-0">
+<!-- slidebar of new notification -->
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
         <div class="card stu-card">
           <h6 class="card-title"><img id="stu-prof" src="img/student1.jpg" height="20px"> Maharshi Patel</h6>
-          <p class="card-text"> it helps many other technologies. With supporting text below as a natura...</p>
+          <p class="not-card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae mollitia rem culpa pariatur, itaque cum error? Repellat itaque sit quisquam enim unde nihil nam, veritatis provident similique ipsa assumenda consectetur. it helps many other technologies. With supporting text below as a natura...</p>
         </div>
       </div>
-      <div class="col-sm-3">
+      <div class="carousel-item">
         <div class="card stu-card">
-          <h6 class="card-title"><img id="stu-prof" src="img/student3.jpg" height="20px"> Shivam oza</h6>
+          <h6 class="not-card-title"><img id="stu-prof" src="img/student3.jpg" height="20px"> Shivam oza</h6>
           <p class="card-text">With supporting text below as a natural lead-in to additional content...</p>
         </div>
       </div>
-      <div class="col-sm-3 mb-3 mb-sm-0">
-        <div class="card stu-card">
-          <h6 class="card-title"><img id="stu-prof" src="img/student1.jpg" height="20px"> Maharshi Patel</h6>
-          <p class="card-text"> it helps many other technologies. With supporting text below as a natura...</p>
-        </div>
-      </div>
-      <div class="col-sm-3">
+      <div class="carousel-item">
         <div class="card stu-card">
           <h6 class="card-title"><img id="stu-prof" src="img/student3.jpg" height="20px"> Shivam oza</h6>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content...</p>
+          <p class="not-card-text">With supporting text below as a natural lead-in to additional content... Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quis similique sequi vel praesentium impedit aut aspernatur, non, laudantium laboriosam dolore vitae earum accusantium, consectetur harum reprehenderit nam quos sint.</p>
         </div>
       </div>
     </div>
-  </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 
+
+  <!-- top rank section -->
   <section class="container-fluid">
     <div id="sec-1">
       <h5 class="card-title-top">Top Rank Colleges</h5>
@@ -128,6 +138,9 @@
         </div>
       </div>
     </div>
+
+
+    <!-- different projects part -->
     <div id="sec-2">
       <div class="container-fluid px-4 py-2" id="custom-cards">
         <h2 class="pb-2 border-bottom">Projects</h2>
@@ -320,6 +333,23 @@
           </div>
         </div>
   </section>
+
+  <!-- footer of website -->
+  <footer class="mt-5 mx-3 d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-body-secondary">© 2023 Projectverse, Inc</p>
+
+    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      <img src="img/logo (2).png" height="40px">
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Mentors</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contact Us</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+    </ul>
+  </footer>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
