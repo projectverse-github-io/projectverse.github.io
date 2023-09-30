@@ -54,17 +54,6 @@ section {
     background-color: brown;
 }
 
-.accordion {
-    width: 140px;
-    height: 50px;
-    z-index: 3;
-    padding: 1px 10px;
-}
-
-#sign_btn {
-    margin-top: 10px;
-}
-
 
 .dropbtn {
     background-color: transparent;
