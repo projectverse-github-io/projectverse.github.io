@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    #profile_photo {
+      border-radius: 100%;
+      height: 100%;
+      width: 22%;
+      border: 1px solid rgb(29, 29, 29);
+    }
+
+    #msglabel {
+      font-size: 14px;
+      margin-bottom: -15px;
+      height: 45px;
+      overflow: hidden;
+      color: rgb(43, 43, 43);
+      font-weight: 500;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- navigation bar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="img/logo (3).png" height="30px" width="120px"> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link mx-3 active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-3" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-3" href="#">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-3" href="#">Conversation</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <button class="btn btn-outline-secondary" type="submit"><img src="img/prifile.png" height="25"> My
+            Profile</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="d-flex">
+    <!-- main profile page -->
+    <main style="width: 100vw;">
+      <div class="container-fluid form-signin w-100 m-auto mt-3" style="text-align: center;">
+        <div class="card" style="width: 100%; background-color: rgb(245, 245, 245);">
+          <div class="card-body">
+            <form>
+              <img class="mb-2" id="profile_photo" src="img/student1.jpg" alt="">
+              <h4 class="mt-3 mx-3 d-flex">Personal Details</h4>
+              <div class="form-floating mb-2">
+                <input type="text" class="form-control" id="floatingcompname" required>
+                <label for="floatingcompname">Student Name</label>
+              </div>
+              <div class="form-floating mb-2">
+                <input type="number" class="form-control" id="floatingcompemail" required>
+                <label for="floatingcompemail">Student Rank No.</label>
+              </div>
+              <div class="form-floating mb-2">
+                <input type="text" class="form-control" id="floatingcompmobile">
+                <label for="floatingcompmobile">Student Graduation Department</label>
+              </div>
+              <div class="form-floating mb-2">
+                <input type="number" class="form-control" id="floatingcompcategory">
+                <label for="floatingcompcategory">Student Graduation Semester</label>
+              </div>
+              <div class="form-floating mb-2">
+                <input type="text" class="form-control" id="floatingcompurl" required>
+                <label for="floatingcompurl">Student Enrollment Number</label>
+              </div>
+              <div class="form-floating mb-2">
+                <input type="text" class="form-control" id="floatingcompusername" required>
+                <label for="floatingcompusername">Student Contact Number</label>
+              </div>
+              <div class="form-floating mb-2">
+                <input type="email" class="form-control" id="floatingcomppass" required>
+                <label for="floatingcomppass">Student Email ID</label>
+              </div>
+              <div class="form-floating mb-2">
+                <input type="password" class="form-control" id="floatingcompconfirmpass" required>
+                <label for="floatingcompconfirmpass">Student Residential Address</label>
+              </div>
+              <button class="btn btn-primary w-100 py-2 mb-4" type="submit">Update Information</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid form-signin w-100 m-auto mt-3" style="text-align: center;">
+        <div class="card" style="width: 100%; background-color: rgb(245, 245, 245);">
+          <div class="card-body">
+            <form>
+              <h4 class="mt-3 mx-3 d-flex">College Details</h4>
+              <div class="form-floating mb-2">
+                <input type="text" class="form-control" id="floatingcompname" required>
+                <label for="floatingcompname">College Name</label>
+              </div>
+              <div class="form-floating mb-2">
+                <input type="text" class="form-control" id="floatingcompcategory">
+                <label for="floatingcompcategory">College University Name</label>
+              </div>
+              <div class="form-floating mb-2">
+                <input type="email" class="form-control" id="floatingcompemail" required>
+                <label for="floatingcompemail">College Email ID</label>
+              </div>
+              <div class="form-floating mb-2">
+                <input type="text" class="form-control" id="floatingcompmobile">
+                <label for="floatingcompmobile">College Address</label>
+              </div>
+              <button class="btn btn-primary w-100 py-2 mb-4" type="submit">Update Information</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid form-signin w-100 m-auto mt-3" style="text-align: center;">
+        <div class="card" style="width: 100%; background-color: rgb(245, 245, 245);">
+          <div class="card-body">
+            <form>
+              <h4 class="mt-3 mx-3 d-flex">Project Details</h4>
+              <div class="form-floating mb-2">
+                <input type="number" class="form-control" id="floatingcompname" required>
+                <label for="floatingcompname">Total Number of Projects</label>
+              </div>
+              <div class="form-floating mb-2">
+                <input type="text" class="form-control" id="floatingcompcategory">
+                <label for="floatingcompcategory">Project Technology</label>
+              </div>
+              <button class="btn btn-primary w-100 py-2 mb-4" type="submit">Update Information</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="container-fluid px-4" style="width: 48%; background-color: rgb(245, 245, 245);">
+      <br>
+      <h3>Massages</h3>
+      <div id="massegebox">
+        <hr>
+        <div class="d-flex" style="margin-top: -10px;">
+          <img src="img/student3.jpg" style="border-radius: 100%;" height="30">
+          <p class="m-1 fw-bold fs-6">Kavy Metkel</p>
+        </div>
+        <label id="msglabel">hi, my name is kavy and i wont to show my project. do you interested to see my my project. if yes, then
+          please respond me as soon as possible. thank you</label>
+      </div>
+      <div id="massegebox">
+        <hr>
+        <div class="d-flex" style="margin-top: -10px;">
+          <img src="img/student2.jpg" style="border-radius: 100%;" height="30">
+          <p class="m-1 fw-bold fs-6">Saloni Naghat</p>
+        </div>
+        <label id="msglabel">do you interested to see my my project. if yes, then
+          please respond me as soon as possible. thank you</label>
+      </div>
+      <div id="massegebox">
+        <hr>
+        <div class="d-flex" style="margin-top: -10px;">
+          <img src="img/student1.jpg" style="border-radius: 100%;" height="30">
+          <p class="m-1 fw-bold fs-6">Shivam Bharti</p>
+        </div>
+        <label id="msglabel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error numquam iure itaque omnis quasi sunt, minus explicabo, odit cumque quis fugit velit nulla aperiam aut non blanditiis, excepturi praesentium modi?</label>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
